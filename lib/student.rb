@@ -1,13 +1,13 @@
 require_relative "../config/environment.rb"
 
 class Student
-attr_accessor :name, :id, :grade
+  attr_accessor :name, :id, :grade
 
-def initialize(name, id = nil, grade)
-  @name = name 
-  @grade = grade
-  @id = id
-end 
+  def initialize(name, id = nil, grade)
+    @name = name 
+    @grade = grade
+    @id = id
+  end 
 
 
 end

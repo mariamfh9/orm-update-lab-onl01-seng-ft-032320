@@ -1,9 +1,13 @@
 require_relative "../config/environment.rb"
 
 class Student
+attr_accessor :name, :id, :grade
 
-  # Remember, you can access your database connection anywhere in this class
-  #  with DB[:conn]
+def initialize(name, id = nil, grade)
+  @name = name 
+  @grade = grade
+  @id = id
+end 
 
 
 end
